@@ -6,3 +6,6 @@ if(a&&b){
 else{
     console.log("konnichiwa")
 }
+
+ let a=10;
+ console.log(Boolean(a))/// true
