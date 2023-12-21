@@ -28,3 +28,9 @@ a= document.getElementById("dev").innerHTML="kkjkshs"
 
 
 
+document.getElementById(id)	Find an element by element id
+document.getElementsByTagName(name)	Find elements by tag name
+document.getElementsByClassName(name)
+
+
+
