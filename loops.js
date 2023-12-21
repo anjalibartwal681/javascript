@@ -32,3 +32,27 @@ for(let values in person){
     //   console.log(anjali[values])
         console.log(values)// for key
  }
+
+
+
+
+
+
+
+
+// forech in built function we use in foreach
+// let a =["anjali","rhn","sng"]
+// a.forEach(function(value , index){
+//     console.log( index,":",value)
+// });
+
+//  we can also asiign  it outside of function
+
+
+let a =["anjali","rhn","sng"]
+a.forEach(fun);
+
+
+function fun(value , index){
+    console.log( index,":",value)
+}
