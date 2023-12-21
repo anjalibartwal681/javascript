@@ -17,3 +17,4 @@ let b = a.map(function(el){
 })
 console.log(a)
 console.log(b)
+// it always return the value 
