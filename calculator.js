@@ -10,19 +10,25 @@
 <body>
   
 
-
+<div class="tp-div">
 <form name="calculator">
             <input type="text" id="result" name="result">
             <button type="button" onclick="funclick('1')">1</button>
             <button type="button" onclick="funclick('2')">2</button>
-            <button type="button" onclick="funclick('1')">1</button>
-            <button type="button" onclick="funclick('2')">2</button>
+            <button type="button" onclick="funclick('3')">3</button>
+            <button type="button" onclick="funclick('4')">4</button>
+            <button type="button" onclick="funclick('5')">5</button>
+            <button type="button" onclick="funclick('6')">6</button>
+            <button type="button" onclick="funclick('7')">7</button>
+            <button type="button" onclick="funclick('8')">8</button>
+            <button type="button" onclick="funclick('9')">9</button>
+            <button type="button" onclick="funclick('0')">0</button>
             <button type="button" onclick="funclick('+')">+</button>
             <button type="button" onclick="funclick('-')">-</button>
              <button type="button" onclick="funclick('*')">*</button>
              <button type="button" onclick="funclick('/')">/</button>
             <!--<button type="button" onclick="add();sub(); multi();">=</button>-->
-              <button type="button" onclick="calculation();">=</button>
+              <button id="eql" type="button" onclick="calculation();">=</button>
             <button type="button" onclick="clearall()">clear all</button>
         </form>
     </div>
