@@ -16,3 +16,17 @@ return num%2==0
     
 }
 console.log(Even(3))
+//function
+//input : array, taget(number)
+//output: index of  target if present in array
+function FindTarget(array,target ){
+    for (let i =0;i<=array.length;i++){
+        if(array[i]===target){
+            return i
+        }
+    }
+    return -1
+}
+ const myarray=[1,3,4,6,8]
+ const ans = FindTarget(myarray,8)
+ console.log(ans)
