@@ -1,0 +1,26 @@
+//json format
+{"name":"John"}
+The file type for JSON files is ".json"
+The MIME type for JSON text is "application/json"
+
+// javascript format
+{name:'John'}
+
+JSON Example
+ {"employee":[{"firstname":"john","lastname":"maria"},
+ {"firstname":"maria","lastname":"maria"},
+ {"firstname":"anjari","lastname":"maria"}]}
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
