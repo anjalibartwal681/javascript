@@ -5,8 +5,8 @@
 <p id="demo2"></p></div>
 
 <button type="button"onclick="setInterval(time,1000)" >onclick</button>
-
 <script>
+
 function time(){
 const d = new Date();
 let hour = d.getHours();
@@ -25,4 +25,12 @@ s=sec
 console.log(s)
 document.getElementById("demo2").innerHTML=s
 }
+function abc(){
+setInterval(time,1000);  
+}
+abc()
+
+
+
+
 </script>
