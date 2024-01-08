@@ -1,0 +1,28 @@
+<div class="a" style="display:flex;gap:20px">
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p></div>
+
+<button type="button"onclick="setInterval(time,1000)" >onclick</button>
+
+<script>
+function time(){
+const d = new Date();
+let hour = d.getHours();
+h = hour;
+// console.log(h)
+document.getElementById("demo").innerHTML=h
+
+
+mint=d.getMinutes()
+m=mint
+// console.log(m)
+document.getElementById("demo1").innerHTML=m
+
+sec=d.getSeconds()
+s=sec
+console.log(s)
+document.getElementById("demo2").innerHTML=s
+}
+</script>
