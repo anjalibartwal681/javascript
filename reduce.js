@@ -27,4 +27,11 @@ const  sum = numbers.reduce((accumulator,currentvalue)=>{
 })
 console.log(sum)
 
+//reduce method
+let numbers=[1,2,3,4,5,9,10]
 
+
+const  sum = numbers.reduce((accumulator,currentvalue)=>{
+    return accumulator+currentvalue
+},100)// we can pass initial value
+console.log(sum)
