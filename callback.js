@@ -36,6 +36,23 @@ function myCalculator(num1, num2) {
 let result = myCalculator(5, 5);
 myDisplayer(result);
 
+// function myDisplay(value){
+//     a= value
+//     console.log(a)
+// }
+
+// function add(num1,num2){
+//     sum=num1+num2;
+//     return sum;
+    
+    
+// }
+
+
+// let result=add(5,5)
+// myDisplay(result)
+
+
 
 
 
