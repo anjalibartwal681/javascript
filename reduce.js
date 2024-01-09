@@ -35,3 +35,11 @@ const  sum = numbers.reduce((accumulator,currentvalue)=>{
     return accumulator+currentvalue
 },100)// we can pass initial value
 console.log(sum)
+
+const usercart=[{productid:1,product:"mobile",price:120000},
+{productid:1,product:"mobile",price:120000},
+{productid:1,product:"mobile",price:120000},]
+const totalamt=usercart.reduce((total,product)=>{
+    return total+product.price
+},0)
+console.log(totalamt)
