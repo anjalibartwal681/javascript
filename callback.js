@@ -52,9 +52,19 @@ myDisplayer(result);
 // let result=add(5,5)
 // myDisplay(result)
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+function higherOrderFunction(callback,x,y) {
+//   console.log('watashi no nmae wa anjari desu');
+  callback(x,y);
+}
 
+function callbackFunction(x,y) {
 
+ console.log(x+y);
+}+
+
+higherOrderFunction(callbackFunction,5,5)
 
 
 
