@@ -18,3 +18,22 @@ async function asyncFunc() {
 
 // calling the async function
 asyncFunc();
+
+async function myDisplay() {
+  let myPromise = new Promise(function(resolve) {
+    resolve("watashi!!");
+  });
+//  a =  myPromise.then(res=>{
+//      console.log(">>>",res)
+//  });
+
+a= await myPromise
+ console.log(a)}
+ myDisplay()
+ // we use await cause when we use lots of then .then it becomes callback hell so we use  async  await 
+ // javascript   .
+ //settimeout send the request to the browser 
+
+
+
+
