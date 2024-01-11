@@ -1,3 +1,23 @@
+
+async function myDisplay() {
+  let myPromise = new Promise(function(resolve) {
+    resolve("watashi!!");
+  });
+    a= await myPromise  //  a =  myPromise.then(res=>{
+ console.log(a)//      console.log(">>>",res) //  });
+
+}
+ 
+ myDisplay() // output watashi!!
+ 
+ // we use await cause when we use lots of then .then it becomes callback hell so we use  async  await 
+ // javascript   .
+ //settimeout send the request to the browser 
+
+
+
+
+
 // a promise
 let promise = new Promise(function (resolve, reject) {
     setTimeout(function () {
