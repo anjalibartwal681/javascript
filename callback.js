@@ -7,6 +7,26 @@
 <p>JavaScript functions are executed in the sequence they are called.</p>
 
   //A callback is a function passed as an argument to another function.
+
+
+
+  function parentsname(){
+     let fathername="mr mahabeer singh";
+    let mothername="urmila devi"
+    console.log(fathername,mothername)
+    
+    }
+    
+    
+    function student(call){
+        let name="rhn"
+        console.log(name)
+      
+         call()
+     
+    }
+      
+    student(parentsname)
 <p id="demo"></p>
 
 <script>
