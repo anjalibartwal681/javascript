@@ -21,3 +21,31 @@ const obj={};
 obj[key1]= value1;
 obj[key2]= value2;
 console.log(obj);
+
+// Define an object
+let personObject = {
+  name: "John Doe",
+  age: 25
+};
+
+// Function that takes an object as an argument
+function printPersonInfo(person) {
+  console.log(`Name: ${person.name}, Age: ${person.age}`);
+}
+
+// Call the function and pass the object as an argument
+printPersonInfo(personObject);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
