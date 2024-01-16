@@ -4,6 +4,11 @@
 
 // await makes a function wait for a Promise
 
+// In this example, the await keyword is used to pause the execution of exampleAsyncFunction 
+//   until the Promise (simulating an asynchronous operation) is resolved.
+//     This doesn't block the entire program; other tasks can continue to execute while
+//     waiting for the asynchronous operation to complete.
+
 async function myDisplay() {
   let myPromise = new Promise(function(resolve) {
     resolve("watashi!!");
