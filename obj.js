@@ -1,3 +1,14 @@
+let object={name:"abc",age:20,
+    detail:function(){
+       console.log(this.name+this.age)
+       
+    }
+}
+
+
+ object.detail()
+
+
 // computed  properties 
 const key1="objectkey1"
 const key2="objectkey2"
