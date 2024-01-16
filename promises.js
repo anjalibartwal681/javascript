@@ -1,3 +1,33 @@
+let myPromise = new Promise((resolve,reject)=>{
+    let data=10
+    if(data){
+        resolve("data exhist");
+    }
+    else{
+        reject("data doesn't exhist");
+    }
+    
+})
+ myPromise 
+ .then((result)=>{
+     console.log(result);
+ })
+ 
+ .catch((error)=>{
+     console.log(error);
+ });
+ 
+
+
+
+
+
+
+
+
+
+
+
 let car = new Promise(function(resolve,reject){
 
 fuel_fullTank = false;
