@@ -9,6 +9,24 @@
   //A callback is a function passed as an argument to another function.
 
 
+---------------------------------------------------------------------------------------------------------
+function a() {
+    console.log("hii");
+}
+
+function c(b, callback) {
+    // b = "hru";
+    console.log(b);
+    callback();
+}
+
+// You should call function `a` directly, not assign it to `d`
+a();
+
+// You need to pass function `a` as a callback to function `c`
+c(b="hru", a);
+--------------------------------------------------------------------------------------------------------------
+
 
   function parentsname(){
      let fathername="mr mahabeer singh";
