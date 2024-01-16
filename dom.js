@@ -13,6 +13,14 @@
 // a property is value that you can get and set(like changing the content of html elements)
 //method  you can  do like( add and delete  html element)
 
+// The HTML elements as objects
+// The properties of all HTML elements
+// The methods to access all HTML elements
+// The events for all HTML elements
+
+
+
+
 <div id="dev">jhbhjj</div>
 
 <style>
