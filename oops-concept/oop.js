@@ -83,3 +83,38 @@ me.isStudying = true;
 
 me.printIntroduction();
 
+
+
+--------------------------------------------------------------classes-----------------------------------------------------
+	JavaScript Classes are basically a blueprint or template of the object. 
+	JavaScript classes can be used to create new objects in Javascript.
+
+The new version of JavaScript (ES6) introduced the use of classes instead of functions.
+	Prior to ES6, there were only classes and, functions which are callable objects.
+
+class emp { 
+	constructor(name, age) { 
+		this.name = name; 
+		this.age = age; 
+
+	} 
+} 
+const emp1 = new emp("Geek1", "25 years"); 
+const emp2 = new emp("Geeks2", "32 years") 
+console.log(emp1.name + " : " + emp1.age); 
+console.log(emp2.name + " : " + emp2.age);
+--------------------------------------------------------------------------------------------------------------------------------------
+Abstraction: Abstraction means displaying only essential information and hiding the details.
+	    Data abstraction refers to providing only essential information about the data to the outside world,
+	      hiding the background details or implementation. 
+
+Encapsulation: The process of wrapping properties and functions within a single unit is known as encapsulation. 
+
+	
+
+
+
+
+
+
+
