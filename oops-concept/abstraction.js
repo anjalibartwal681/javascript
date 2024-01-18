@@ -11,9 +11,32 @@ class Car {
   }
 
   // Abstraction of driving
+// Abstraction of a car
+class Car {
+  constructor(make, model) {
+    this.make = make;
+    this.model = model;
+    this.speed = 0;
+  }
+
+  // Abstraction of driving
   drive() {
-    console.log(`The ${this.make} ${this.model} is now driving.`);
-    this.speed = 60;
+    
+    this.speed = 10;
+    
+    
+    if (this.speed == 10){
+        console.log(`The ${this.make} ${this.model} is now driving.`);
+    }
+    
+    
+    else{
+        console.log(`The ${this.make} ${this.model} is not driving.`)
+    }
+    
+    
+    
+    
   }
 
   // Abstraction of turning
@@ -21,6 +44,14 @@ class Car {
     console.log(`The ${this.make} ${this.model} is turning ${direction}.`);
   }
 
+Speed(){
+    this.speed=40
+    
+    if(this.speed===40){
+                console.log(`The ${this.make} ${this.model} increse the speed.`)
+
+    }
+}
   // Abstraction of stopping
   stop() {
     console.log(`The ${this.make} ${this.model} has stopped.`);
@@ -35,3 +66,5 @@ const myCar = new Car('Toyota', 'Camry');
 myCar.drive();
 myCar.turn('left');
 myCar.stop();
+myCar.Speed()
+
