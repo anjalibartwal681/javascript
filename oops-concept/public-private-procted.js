@@ -1,3 +1,7 @@
+//protected  class _
+// we can access the properties inside its  next class child class
+
+
 class MyClass {
   _privateVariable = 42;
 
@@ -50,7 +54,26 @@ ob.display2();
 ob.display2();
 ob.display();
  console.log(ob._count)
+-------------------------------------------------------------- private class #----------------------------------------------------------------------
+//we can  can't acess and inherit the method and properties inside child class  
+  class Myclass{
+    #prvariable=[1,2,3,4,5,6]
+    
+    display(){
+   const  value =  this.#prvariable;
+  const result=   value.map((value)=>{
+          return value+1
+           
+      })
+     console.log(result)
+    }
+    
+    
+    
+} 
 
+ob= new Myclass()
+ob.display()
 
 
 
