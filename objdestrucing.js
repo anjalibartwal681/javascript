@@ -1,4 +1,12 @@
 //object  destructing 
+
+
+const obj={name:"anjali",id:"001",address:"rishikes"}
+const{name,id,address} = obj
+console.log(name,id,address)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 const band={ bandName:"donata",famouseSong:"stairway to haven",palce:"haven"
     };
 // let bandName=band.bandName
