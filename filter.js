@@ -9,3 +9,11 @@ function checkvalue(value){
     return value<=10
     
 }
+
+
+
+function a(){
+    console.log("hii")
+}
+
+setTimeout(a,3000)
