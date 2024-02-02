@@ -1,4 +1,11 @@
 // array destructing
+
+const arr=["anjali","bartwal","rishikesh"]
+
+const[name,lastname,address]=arr
+console.log(name,lastname,address)
+
+
 const myArray=["value1","value2","value3"]
 // let myvar1= myArray[0]
 // let myvar2= myArray[1]
