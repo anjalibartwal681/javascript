@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Dune",
+    "add": "Frank Herbert",
+    "contact": "1965"
+  },
+  {
+    "name": "Foundation",
+    "add": "Isaac Asimov",
+    "contact": "1951"
+  },
+  {
+    "name": "Ender's Game",
+    "add": "Orson Scott Card",
+    "contact": "1985"
+  },
+  {
+    "name": "1984",
+    "add": "George Orwell",
+    "contact": "1949"
+  },
+  {
+    "name": "Brave New World",
+    "add": "Aldous Huxley",
+    "contact": "1932"
+  },
+  {
+    "name": "The Hitchhiker's Guide to the Galaxy",
+    "add": "Douglas Adams",
+    "contact": "1979"
+  },
+  {
+    "name": "Neuromancer",
+    "add": "William Gibson",
+    "contact": "1984"
+  },
+  {
+    "name": "Snow Crash",
+    "add": "Neal Stephenson",
+    "contact": "1992"
+  },
+  {
+    "name": "The Martian",
+    "add": "Andy Weir",
+    "contact": "2011"
+  },
+  {
+    "name": "Ready Player One",
+    "add": "Ernest Cline",
+    "contact": "2011"
+  }
+]
