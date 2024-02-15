@@ -1,0 +1,22 @@
+let arr=[
+    {id:1,name:"shekhar",edit:false},
+    {id:2,name:"vivek", edit:false},
+];
+const user={id:2,name:"sachin", edit:false};
+arr=[...arr,user];
+console.log(arr)
+arr=[...arr,name="anjali"];
+arr[1]={...arr,name:"abhi"}
+console.log(arr)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+let arr=[
+    {id:1,name:"shekhar",edit:false},
+    {id:2,name:"vivek", edit:false},
+];
+
+arr[1]={name:"anjali",age:23};
+arr[1]={...arr[1],edit:true}
+console.log(arr);
+
+
