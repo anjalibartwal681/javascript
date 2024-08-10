@@ -68,3 +68,26 @@ myCar.turn('left');
 myCar.stop();
 myCar.Speed()
 
+
+
+
+
+
+
+class Car{
+    constructor(make,model){
+        this.make=make;
+        this.model=model;
+    }
+
+
+ dive(){
+    this.speed=10;
+    if(this.speed==10){
+        console.log(`the ${this.make}${this.model} is now driving.`);
+    }
+      else{
+       console.log(`The ${this.make} ${this.model} is not driving.`)
+    }}}
+    const myCar=new Car('TOYota','Camry');
+    myCar.dive();
